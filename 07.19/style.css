@@ -1,0 +1,20 @@
+/* This is a comment in css */
+/* 1. What element are we affecting */
+/* We are going to affect the h1 tag */
+/* 2. What are we doing with it */
+/* turn the text color to green */
+
+h1 {
+    color: rgb(18, 121, 61);
+    text-align: center;
+    font-size: 50px;
+}
+
+p {
+    color: brown;
+    background-color: antiquewhite;
+}
+
+body {
+    background-color: rgba(212, 207, 207, 0.856);
+}
