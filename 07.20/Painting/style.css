@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: palevioletred; */
+}
+
+#frame {
+    height: 600px;
+    width: 600px;
+    border: 2px solid black;
+    margin: 0px auto;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#topHalf {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#bottomHalf {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#twinBoxes {
+    height: 100%;
+    width: 25%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#bigRed {
+    height: 100%;
+    width: 70%;
+    background-color: red;
+}
+
+.halfBox {
+    width: 100%;
+    height: 45%;
+    background-color: white;
+}
+
+#box1 {
+    height: 100%;
+    width: 25%;
+    background-color: blue;
+}
+
+#box2 {
+    height: 100%;
+    width: 50%;
+    background-color: white;
+}
+
+#box3 {
+    height: 100%;
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#bottom-right {
+    background-color: yellow;
+}
