@@ -1,0 +1,43 @@
+img {
+    width: 100px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.frame {
+    border: 2px solid black;
+    width: 900px;
+    height: 500px;
+    /* display: flex; */
+}
+
+.blue {
+    width: 100%;
+    height: 30%;
+    background-color: rgb(22, 201, 221);
+    border: 1px solid rgb(22, 201, 221);
+}
+
+.white {
+    background-color: white;
+    border: 1px solid white;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.gear-profile {
+    display: flex;
+}
+
+.word {
+    padding-left: 40px;
+    height: 15%;
+}
+
+.mapCity {
+    display: flex;
+}
