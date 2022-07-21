@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    height: 80px;
+    width: 100%;
+    background-color: aqua;
+    border-bottom: 2px solid black;
+}
+
+nav > h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+#box {
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    border: 2px solid black;
+    position: relative;
+    top: 50px;
+    left: 100px;
+    z-index: -1;
+}
+
+#cornerBox {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(114, 99, 201);
+    border: 2px solid black;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+#largeContainer {
+    height: 500px;
+    width: 60%;
+    background-color: rgb(208, 211, 46);
+    border: 2px solid black;
+    position: relative;
+}
+
+#innerContainer {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(160, 48, 121);
+    border: 2px solid black;
+    position: absolute;
+    right: 0px;
+}
+
+#stop {
+    text-align: center;
+    background-color: blanchedalmond;
+    color: blueviolet;
+    position: sticky;
+    top: 0px;
+}
