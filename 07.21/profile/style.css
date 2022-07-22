@@ -1,24 +1,24 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-.frame{
+.frame {
     width: 1000px;
     height: 900px;
     border: 1px solid black;
     margin: 0 auto;
 }
 
-.nav{
-    background-color:black;
+.nav {
+    background-color: black;
     width: auto;
     height: 8%;
     display: flex;
     justify-content: center;
 }
 
-.top{
+.top {
     width: 70%;
     height: 100%;
     background-color: black;
@@ -29,78 +29,78 @@
 
 
 
-#menu{
+#menu {
     width: 60%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.signOut{
+.signOut {
     color: white;
     background-color: rgb(35, 126, 136);
     padding: 5px 10px;
 }
 
-.item{
+.item {
     color: white;
 }
 
-.profile{
+.profile {
     font-size: 2em;
 }
 
-.bottom{
+.bottom {
     width: auto;
     height: 92%;
     display: flex;
     justify-content: center;
 }
 
-.content{
+.content {
     width: 70%;
     height: 100%;
     display: flex;
     justify-content: space-between;
 }
 
-.main-content{
+.main-content {
     width: 65%;
     margin-top: 20px;
 }
 
 
-.sidebar{
+.sidebar {
     width: 30%;
     margin-top: 40px;
 }
 
-.topLeft{
+.topLeft {
     width: 100%;
     height: 60%;
     margin-bottom: 50px;
 }
 
-.bottomLeft{
+.bottomLeft {
     width: 100%;
     height: 30%;
     border: 2px solid rgb(56, 56, 58);
 }
 
-.topRight{
+.topRight {
     width: 100%;
     height: 30%;
     margin-bottom: 60px;
     border: 2px solid rgb(56, 56, 58);
 }
 
-.bottomRight{
+.bottomRight {
     width: 100%;
     height: 60%;
     border: 2px solid rgb(56, 56, 58);
 }
 
-.request{
+.request {
     width: 100%;
     height: 30%;
     background-color: rgb(56, 56, 58);
@@ -109,22 +109,22 @@
     align-items: center;
 }
 
-#circle-2{
+#circle-2 {
     border: 1px solid black;
     background-color: rgb(231, 225, 225);
     border-radius: 50%;
     padding: 5px 10px;
 }
 
-#requests{
+#requests {
     color: white;
 }
 
-#education{
+#education {
     color: white;
 }
 
-.connection{
+.connection {
     width: 100%;
     height: 60%;
     display: flex;
@@ -132,39 +132,39 @@
     justify-content: space-evenly;
 }
 
-#view-more{
+#view-more {
     width: 100%;
     height: 10%;
     border-top: 2px solid rgb(56, 56, 58);
 }
 
-#todd{
+#todd {
     height: 30px;
     display: flex;
     justify-content: space-evenly;
 }
 
-#phil{
+#phil {
     height: 30px;
     display: flex;
     justify-content: space-evenly;
 }
 
-.pic-todd > img{
+.pic-todd>img {
     height: 100%;
     border-radius: 50%;
 }
 
-.pic-phil > img{
+.pic-phil>img {
     height: 100%;
     border-radius: 50%;
 }
 
-.icon > img{
+.icon>img {
     height: 100%;
 }
 
-.success{
+.success {
     padding-left: 20px;
     padding-top: 20px;
 }
@@ -191,51 +191,51 @@
 
 }
 
-#circle{
+#circle {
     height: 100px;
     width: 100px;
     position: relative;
 }
 
-#circle > img{
+#circle>img {
     width: 100%;
     position: absolute;
     top: 90px;
     left: 50px;
 }
 
-#name{
+#name {
     height: 20%;
     width: 50%;
     font-size: 2em;
     margin-left: 40px;
 }
 
-#location{
+#location {
     height: 15%;
     width: 50%;
     margin-left: 40px;
     font-size: 1.5em;
 }
 
-#marker > img{
+#marker>img {
     height: 15px;
 }
 
-#job{
+#job {
     height: 20%;
     /* width: 50%; */
     margin-left: 40px;
     font-size: 1.2em;
 }
 
-#description{
+#description {
     height: 15%;
     width: 50%;
     margin-left: 40px;
 }
 
-#edit{
+#edit {
     height: 20%;
     width: 50%;
     margin-left: 40px;
@@ -243,11 +243,11 @@
     margin-top: 10px;
 }
 
-#edit > img{
+#edit>img {
     height: 15px;
 }
 
-#circle > img{
+#circle>img {
     height: 100%;
     border-radius: 50%;
 }
