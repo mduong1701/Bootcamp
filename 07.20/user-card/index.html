@@ -8,27 +8,30 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <img src="user-circle.png" alt="user circle">
-    </div>
     <div class="frame">
-        <div class="blue"></div>
+
+        <div class="blue">
+            <div id="circle">
+                <img src="user-circle.png" alt="user circle">
+            </div>
+        </div>
+
         <div class="white">
-            <div class="word">Jane Doe</div>
-            <div class="word mapCity">
-                <div id="map">
-                    <img src="map-marker.png" alt="map marker">
-                </div>
-                <div>Seattle</div> 
+            <div id="name">Jane Doe</div>
+
+            <div id="location">
+                <div id="marker"><img src="map-marker.png" alt="map-marker">  Seattle</div> 
+            </div> 
+
+            <div id="job">
+                <p>Developer | Engineer | Problem Solver</p>
+                <p>Master of shadows and the Internet!</p>
             </div>
-            <div class="word">Developer | Engineer | Problem Solver</div>
-            <div class="word">Master of shadows and the Internet!</div>
-            <div class="gear-profile">
-                <div id="gear">
+            
+            <div id="edit">
                     <img src="gear.png" alt="gear">
-                </div>
-                <div class="word">edit profile</div>
-            </div>
+                    <a href="#">edit profile</a>
+            </div> 
         </div>
     </div>
 </body>
